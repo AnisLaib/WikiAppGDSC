@@ -2,7 +2,7 @@
 <h3 align="center">Preview</h3>
 
 <p align="center">
-![1](https://user-images.githubusercontent.com/97466652/168189969-1fcd3c58-2fde-4f91-94f2-6532dc97be52.png)
+<img src="https://user-images.githubusercontent.com/97466652/168189969-1fcd3c58-2fde-4f91-94f2-6532dc97be52.png" />
 </p>
 
 # About This Project

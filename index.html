@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wiki</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="brand">
+                <img src="./assets/wiki.png" alt="Logo" class="logo">
+            </a>
+            <button class="nav-mob" onclick="toggleNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
+            </button>
+            <div class="nav-items" id="nav-items">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#" class="nav-item">Contribute</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">
+                            <div class="user-icon"><img src="assets/user.svg" alt="User Icon"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="space"></div>
+    <section class="landing">
+        <div class="container">
+            <div class="title-container">
+                <span class="title">WIKI</span>
+                <span class="subtitle">The free and rich encyclopedia</span>
+            </div>
+            <div class="search">
+                <input type="text" class="search-input" placeholder="Search for an article...">
+                <a href="#" class="mic-icon">
+                    <img src="assets/mic.svg" alt="Microphone Icon">
+                </a>
+                <a href="#" class="search-icon">
+                    <div class="search-btn">
+                        <img src="assets/search.svg" alt="Search Icon">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <img src="./assets/book.png" alt="Book" class="book-img">
+    </section>
+    <div class="space"></div>
+    <section>
+        <p class="headline">Recent Articles</p>
+        <div class="articles">
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#bdc3c7" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#FC5C65" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#bdc3c7" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#FC5C65" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#bdc3c7" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#FC5C65" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#bdc3c7" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#bdc3c7" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#bdc3c7" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#FC5C65" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#bdc3c7" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+            <div class="article-card">
+                <div class="article-img">
+                    <div class="like">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#FC5C65" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z" />
+                            </svg>
+                    </div>
+                </div>
+                <p class="article-title">Title</p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+
+</html>
